@@ -89,7 +89,6 @@ const HomeScreen = ({ navigation }) => {
     if (!dataFetched) {
       FetchData();
     }
-
     return () => {
       cleanUp();
     };
