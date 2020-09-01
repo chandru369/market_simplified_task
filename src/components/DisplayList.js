@@ -2,16 +2,15 @@ import React from 'react';
 import { StyleSheet, Text, View, Image, FlatList, Dimensions } from 'react-native';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 import { Header, Button, Input, Item, Icon } from 'native-base'
-
+import { StatusBar } from 'expo-status-bar';
+import HeaderCompo from './header'
 const { width, height } = Dimensions.get("screen")
 const DisplayList = ({ prodDataArr }) => {
     const DataArray = prodDataArr;
     return (
         <>
-            <Header style={{ backgroundColor: "#3CAC40", alignItems: "center" }}>
-                <Text style={{ color: "white", fontWeight: "bold", fontSize: 20 }}>Dashboard</Text>
-            </Header>
-
+           <HeaderCompo headerName = {"DashBoard"} /> 
+             <Text style={{alignSelf:"center",margin:10,fontSize:18,fontWeight:"bold",color:"#3CAC40"}}>Product List</Text>
             <FlatList style={{ flex: 1 }} data={DataArray} keyExtractor={(item, index) => (item.id)} renderItem={({ item, index }) => (
                 <View style={styles.cardCont}>
                     <View style={{ flex: 1 }}>
