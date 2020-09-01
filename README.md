@@ -7,7 +7,7 @@ scan the qr code from the expo app in mobile <br />
 project will run. <br />
 app sample images are provides in snapshots folder <br />
 
-# code explanation
+# Code Explanation
 Loading Screen:<br />
 1.When app launches it checks weather user logged in already by the token is present in async storage.<br/>
 2.If token presents then it will launch to Dashboard page.
@@ -26,12 +26,13 @@ Dashboard Screen:<br/>
 3.If data is not present then the Internet connectivity of the mobile is checked weather it has Internet on and if its not on Network Connectivity Toast is shown.<br/>
 3.If Internet is on then api request is made by axios and data is shown.
 
-#Error Handling:
+# Error Handling
 If Internet is off or no data is fetched or error while api call the user has an option to reload the 
 api.<br/>
 <br/>
 <br/>
-$Integrations Used:<br/>
+
+# Integrations
 For UI Components Native-base is used.<br/>
 For Api call Axios is used.<br/>
 
