@@ -1,10 +1,10 @@
 # market_simplified_task
-This project is done in react native expo cli.
-npm install to install the modules
-expo start to start the dev mode
-scan the qr code from the expo app in mobile
-project will run.
-app sample images are provides in snapshots folder
+This project is done in react native expo cli. <br />
+npm install to install the modules <br />
+expo start to start the dev mode <br />
+scan the qr code from the expo app in mobile <br />
+project will run. <br />
+app sample images are provides in snapshots folder <br />
 
 
 #explanation
