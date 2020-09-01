@@ -4,6 +4,7 @@ npm install to install the modules
 expo start to start the dev mode
 scan the qr code from the expo app in mobile
 project will run.
+app sample images are provides in snapshots folder
 
 
 #explanation
